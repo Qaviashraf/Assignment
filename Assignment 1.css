@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    background-image: url("./emailtemplate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.title{
+
+    font-size: 300%;
+}
+.title,
+.title2
+.text {
+    color: black;
+}
+
+#container {
+    height: 100%;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.subBtn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.subBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.title {
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 12px;
+}
+
+.newspaperlink {
+    color: blue;
+}
+.newspaperlink:hover{
+   font-weight: bold;
+}
+
